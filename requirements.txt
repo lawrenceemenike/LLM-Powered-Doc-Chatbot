@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+python-multipart
+requests
+chromadb
+sentence-transformers
+langchain
+langchain-community
+langchain-huggingface
+pdfplumber
+pymupdf
+pytesseract
+Pillow
+python-dotenv
+prometheus-client
+pytest
+httpx
