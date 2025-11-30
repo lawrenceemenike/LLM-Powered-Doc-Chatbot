@@ -22,12 +22,12 @@ Here is the high-level architecture I landed on:
 
 ```mermaid
 graph LR
-    A[User] --> B[FastAPI Service]
+    A[User] --> B["FastAPI Service"]
     B --> C[Retriever]
     B --> D[Generator]
     C --> E[ChromaDB]
-    D --> F[LLM (HF)]
-    G[Ingestion CLI] --> H[PDF Parser]
+    D --> F["LLM (HF)"]
+    G["Ingestion CLI"] --> H["PDF Parser"]
     H --> I[Embedder]
     I --> E
 ```
